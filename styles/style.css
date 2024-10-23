@@ -358,3 +358,91 @@ nav a, li{
     margin-top: 32px;
     width: 260px;
 }
+
+/* BMI section styles start from here */
+
+table {
+    border-collapse: collapse;
+    color: #FFFFFF80;
+  }
+  
+  td, th {
+    border: 1px solid #FFFFFF1A;
+    text-align: left;
+    padding: 8px;
+  }
+  td{
+    font-size: 12px;
+  }
+
+  .chart-section{
+    background-color: #222;
+    margin-left: 0px;
+    padding: 52px 32px;
+    border-radius: 18px;
+  }
+
+  .bmi-chart-title, .calculate-bmi-title{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-top: 0;
+  }
+
+  .calculate-bmi-title{
+    margin-bottom: 12px;
+  }
+  .chart-section{
+    display: flex;
+    gap: 150px;
+  }
+
+  .calculate-bmi-des{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 0;
+}
+
+.input1, .input2{
+    display: flex;
+    gap: 8px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.form-btn{
+    width: 100%;
+}
+input{
+    height: 48px;
+    padding: 0px 40px 0px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    outline: none;
+    color: #dedbdb;
+    
+}
+
+.icon-div1, .icon-div2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sex, .factor{
+    position: relative;
+    width: 100%;
+}
+
+.icon1, .icon2{
+    position: absolute;
+    margin-right: 20px;
+}
