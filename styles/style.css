@@ -630,3 +630,106 @@ hr{
 .hamicon{
     display: none;
 }
+
+/* Responsive Media Query for mobile device */
+@media screen and (max-width:576px) {
+    header, main, footer, .footer-section, .habit-section{
+        margin: 32px;
+    }
+
+    .calculator-section{
+        margin-top: 32px;
+    }
+    nav{
+        margin: 0px;
+        flex-direction: row;
+        justify-content: left;
+    }
+    nav > ul {
+        display: none;
+
+    }
+    nav> .hamicon{
+        display: block;
+        height: 40px;
+        margin-left: 160px;
+    }
+    .banner-title, .footer-title, .habit-title, .package-title, .run-title, .calculator-title{
+        font-size: 44px;
+        font-weight: 700;
+    }
+
+    .banner-content{
+        justify-content: center;
+        align-items: center;
+        align-items: left;
+        margin: 32px 0px;
+    }
+
+    .banner-des{
+        width: 90%;
+    }
+
+    .banner-tag1, .banner-tag2{
+        margin-left: 0px;
+    }
+    .banner-tags{
+        flex-direction: row;
+        margin-left: 0;
+        gap: 40px;
+        width: 90%;
+    }
+    .banner-btns{
+        flex-direction: column;
+        gap: 14px;
+    }
+    .habit-des, .package-des, .team-des, .calculator-des, .calculate-bmi, .run-img{
+        width: 90%;
+    }
+
+    .img-div{
+        display: flex;
+        justify-content: center;
+    }
+    .package-items, .chart-section{
+        gap: 32px;
+    }
+
+    .banner-section, .habit-items, .package-items, .run-section, .chart-section, .team-members, .team-members-one, .team-members-two, .footer-section, .input1, .input2{
+        flex-direction: column;
+    }
+
+    .run-section{
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+
+    .run-content, .chart-section, .calculate-bmi{
+        align-items: center;
+        text-align: center;
+    }
+
+    .calculator-des{
+        margin-bottom: 20px;
+    }
+
+    .package-btn{
+        padding: 12px 80px;
+    }
+    footer{
+        border-radius: 18px;
+    }
+    .footer-section{
+        padding: 20px;
+    }
+    .footer-des{
+        width: 150%;
+    }
+    hr{
+        border: 1px solid white;
+        margin: 10px;
+     }
+}
