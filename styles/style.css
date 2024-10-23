@@ -266,3 +266,95 @@ nav a, li{
     line-height: 18px;
     letter-spacing: 0.3px;
 }
+
+/* our package styles start from here */
+.package-items{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.package-item{
+    background-color: #dedbdb;
+    border-radius: 16px;
+    box-shadow: 0px 0px 3px 1px #333;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-name{
+    color: #E6533C;
+}
+
+.package-price{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 120%;
+    margin: 0; 
+}
+
+.taka{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.save{
+    color: #f81515;
+    margin: 8px 0;
+}
+
+.package-btn{
+    background: #E6533C;
+    border: none;
+    padding: 8px 54px;
+    border-radius: 16px;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+/* run section styles start from here */
+
+.run-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    border-radius: 18px;
+    background: #222;
+    margin: 100px 0;
+
+}
+
+.run-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 30px 42px;
+    gap: 10px;
+}
+
+.run-img{
+    width: 380px;
+    height: 340px;
+    border: none;
+    border-radius: 18px;
+    margin: 30px;
+}
+.run-title{
+    margin-top: 0;
+}
+
+.run-des{
+    font-size: 14px;
+    color: #ffffff80;
+}
+
+.run-btn{
+    margin-top: 32px;
+    width: 260px;
+}
