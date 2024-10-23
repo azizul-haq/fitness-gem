@@ -199,3 +199,70 @@ nav a, li{
     color:#FFFFFF80;
     margin-top: 8px;
 }
+
+/* habit section styles start from here*/
+.habit-section{
+    margin: 100px 0;
+}
+.habit-content, .package-content{
+    text-align: center;
+    margin-bottom: 54px;
+}
+.habit-title, .package-title, .run-title, .team-title, .calculator-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 12px;
+}
+.calculator-title{
+    text-align: center;
+}
+.habit-des, .package-des, .team-des, .calculator-des{
+    color: #FFFFFF80;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    width: 671px;
+    margin: auto;
+}
+
+.calculator-des{
+    margin-bottom: 80px;
+}
+.habit-items{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.habit-item, .package-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.habit-img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.habit-item-title{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0; 
+}
+
+.habit-item-des{
+    color: #FFFFFF80;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
