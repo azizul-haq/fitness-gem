@@ -446,3 +446,119 @@ input{
     position: absolute;
     margin-right: 20px;
 }
+
+/* team members section styles start from here */
+.team-content{
+    margin-bottom: 58px;
+}
+.team-title{
+    text-align: center;
+}
+
+.team-members{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+}
+
+.team-members-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.team-members-two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.team-member-img{
+    width: 290px;
+    height: 272px;
+    border-radius: 18px;
+}
+
+.team-name{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 0px;
+}
+
+.team-design{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 4px;
+}
+
+
+.team-member1{
+    position: relative;
+}
+
+.team-name-design1{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.team-member2{
+    position: relative;
+}
+
+.team-name-design2{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.team-member3{
+    position: relative;
+}
+
+.team-name-design3{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.team-member4{
+    position: relative;
+}
+
+.team-name-design4{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.team-member5{
+    position: relative;
+}
+
+.team-name-design5{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.team-member6{
+    position: relative;
+}
+
+.team-name-design6{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
